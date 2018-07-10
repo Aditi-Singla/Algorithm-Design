@@ -1,12 +1,12 @@
 # Assignment 1 - Greedy
 
-Matrix construction: Given integers R_1, ..., R_n and C_1, ..., C_n, implement an algorithm that determines if there exists an n × n 0/1 matrix A such that:
+Matrix construction: Given integers R<sub>1</sub>, ..., R<sub>n</sub> and C<sub>1</sub>, ..., C<sub>n</sub>, implement an algorithm that determines if there exists an n × n 0/1 matrix A such that:
 
-	1. For all i, \sum_{j=1}^{n} A[i, j] = R_i
-	2. For all j, \sum_{i=1}^{n} A[i, j] = C_j .
+	1. Sum of each row i = R<sub>i</sub>
+	2. Sum of each column j = C<sub>j</sub>
 
 
-#### Running the code (in [/src](/src) folder)
+#### Running the code (in [./src](./src) folder)
 
 1. To compile -
 

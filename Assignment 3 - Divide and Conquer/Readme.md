@@ -1,9 +1,9 @@
-# Assignment 3 - Divide and Conquer
+## Assignment 3 - Divide and Conquer
 
-*Binary Multiplication:* Given two n-bit integers a and b, you have to implement two algorithms:
+**Binary Multiplication:** Given two n-bit integers a and b, you have to implement two algorithms:
 
    1. *Long Multiplication:* Implement the brute-force O(n<sup>2</sup>) algorithm that simulates the long multiplication.
-   2. *Karatsuba:* Implement the O(n<sup>log<sub>2</sub>3</sup>>)-time algorithm discussed in class to multiply a and b.
+   2. *Karatsuba:* Implement the O(n<sup>log<sub>2</sub>3</sup>) algorithm discussed in class to multiply a and b.
 
 
 #### Running the code (in [./src](./src) folder)
@@ -39,5 +39,6 @@
 |  2<sup>12</sup>  |         7.34961	        |      8.80612         |
 |  2<sup>13</sup>  |         77.4482	        |      26.2773         |
 |  2<sup>14</sup>  |         607.004	        |      78.8218         |
+
 
 ![n vs time plot for Karatsuba and Longmultiplication](src/graph.png)
